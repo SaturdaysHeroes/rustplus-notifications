@@ -1,0 +1,24 @@
+{
+  "name": "rustplus-notifications",
+  "version": "1.0.0",
+  "description": "Send notifications from the Rust+ app to a discord server.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaturdaysHeroes/rustplus-notifications.git"
+  },
+  "author": "SaturdaysHeroes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaturdaysHeroes/rustplus-notifications/issues"
+  },
+  "homepage": "https://github.com/SaturdaysHeroes/rustplus-notifications#readme",
+  "dependencies": {
+    "@liamcottle/rustplus.js": "^2.0.0",
+    "discord-webhook-node": "^1.1.8",
+    "dotenv": "^8.2.0"
+  }
+}
