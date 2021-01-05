@@ -11,5 +11,7 @@ Rust.on("connected", () => {
 });
 
 Rust.on("message", (message) => {
-    console.log("[Rust+] Received message: " + JSON.stringify(message));
+    if (process.env.DEBUG == "ON") {
+        console.log("[Rust+] Received message: " + JSON.stringify(message));
+    }
 });
