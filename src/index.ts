@@ -9,3 +9,7 @@ Rust.on("connected", () => {
         description: "Rust+ has successfully been connected."
     });
 });
+
+Rust.on("message", (message) => {
+    console.log("[Rust+] Received message: " + JSON.stringify(message));
+});
